@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+  font-family: "JetBrains Mono";
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: rgb(221, 0, 0);
+  color: white;
+  border: 0ch;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/porto.css" />
+    <script defer src="./assets/js/top-button.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./assets/js/porto.js"></script>
+    <title>SEA Digitalent | Portofolio</title>
+  </head>
+  <body>
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <div class="container py-5">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-primary"
+                  aria-current="page"
+                  href="#"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portofolio.html">PORTOFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tracker.html">TRACKER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="bg-primary py-4">
+      <div class="container" style="color: white">
+        <h2>Portofolio</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('web')">Web Design</button>
+        <button class="btn" onclick="filterSelection('mobile')">
+          Mobile App
+        </button>
+        <button class="btn" onclick="filterSelection('ui')">UI Design</button>
+      </div>
+
+      <div class="row p-2 pb-5">
+        <div class="column mobile col-12 col-lg-3 py-3">
+          <div class="content">
+            <img
+              src="./assets/img/works/1.jpg"
+              alt="Lights"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <div class="column nature col-12 col-lg-3 py-3">
+          <div class="content">
+            <img
+              src="./assets/img/works/2.jpg"
+              alt="Nature"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+
+        <div class="column web col-12 col-lg-3 py-3">
+          <div class="content">
+            <img src="./assets/img/works/3.jpg" alt="Car" style="width: 100%" />
+          </div>
+        </div>
+        <div class="column ui col-12 col-lg-3 py-3">
+          <div class="content">
+            <img src="./assets/img/works/4.jpg" alt="Car" style="width: 100%" />
+          </div>
+        </div>
+        <div class="column web col-12 col-lg-3 py-3">
+          <div class="content">
+            <img src="./assets/img/works/5.jpg" alt="Car" style="width: 100%" />
+          </div>
+        </div>
+
+        <div class="column web col-12 col-lg-3 py-3">
+          <div class="content">
+            <img
+              src="./assets/img/works/6.jpg"
+              alt="People"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <div class="column mobile col-12 col-lg-3 py-3">
+          <div class="content">
+            <img
+              src="./assets/img/works/7.jpg"
+              alt="People"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <div class="column ui col-12 col-lg-3 py-3">
+          <div class="content">
+            <img
+              src="./assets/img/works/8.jpg"
+              alt="People"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-primary" id="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+            <div class="footer-content" style="color: white">
+              <p class="fw-bold">Our Contact</p>
+              <p class="fw-bold">SEA Digitalent</p>
+              <p>PCP tower</p>
+              <p>Pin-21542 Indonesia ID.</p>
+              <p>(123)456-789 - 1255-12584</p>
+              <p>email@domainname.com</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+            <div class="footer-content" style="color: white">
+              <p class="fw-bold">Quick Links</p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Latest Events</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Terms and Conditions</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Privacy Policy</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Career</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Contact us</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+            <div class="footer-content" style="color: white">
+              <p class="fw-bold">Latest Post</p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+            <div class="footer-content" style="color: white">
+              <p class="fw-bold">Recent News</p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+              <p>
+                <a class="text-white text-decoration-none" href="#footer"
+                  >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-white pt-5 pb-2">
+          <div class="col-12 col-lg-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-c-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"
+              />
+            </svg>
+            <i class="bi bi-c-circle"
+              >SEA Digitalent Site All Right Reserved. Template by example.</i
+            >
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-end">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+            <i class="bi bi-facebook mx-2"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+              />
+            </svg>
+            <i class="bi bi-twitter mx-2"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-linkedin"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+            <i class="bi bi-linkedin mx-2"></i>
+            <i class="fa fa-pinterest mx-2"></i>
+            <i class="fa fa-google-plus mx-2"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
